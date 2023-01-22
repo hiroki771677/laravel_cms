@@ -9,6 +9,7 @@ use Validator;  //この1行だけ追加！
 class BookController extends Controller
 {
     
+    
      public function __construct()
     {
       $this->middleware('auth');
